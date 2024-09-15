@@ -148,6 +148,12 @@ greet.call(person1); // Output: "Hello, my name is Alice"
 greet.call(person2); // Output: "Hello, my name is Bob"
 ```
 
+## Regular function VS Arrow functions
+
+In a **regular function**, the value of `this` is determined by how the function is called. If the function is called as a method on an object, this refers to that object. However, if it's called in a different context, such as in a callback or setTimeout, this might not refer to the object you expect—it could refer to the global object (window in browsers or global in Node.js), or it could be undefined in strict mode.
+
+**Arrow functions** are different because they don't have their own `this`. Instead, they lexically inherit this from the surrounding context where they are defined. This means that, unlike regular functions, arrow functions don't change the value of `this` based on how or where they are called.
+
 ## Summary of `this`
 
 - In **Objects**: Refers to the object that owns the method.
