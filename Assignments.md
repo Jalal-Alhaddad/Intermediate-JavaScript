@@ -30,7 +30,7 @@ setTimeout(person1.introduce, 2000); // Output: Hello, my name is undefined and 
 setTimeout(person1.introduce.bind(person1), 2000); // Output: Hello, my name is Alice and I am 30 years old.
 ```
 
-Q 2: Creating Objects Using ES6 Classes
+## Q 2: Creating Objects Using ES6 Classes
 
 Instructions:
 
