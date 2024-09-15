@@ -1,2 +1,1 @@
-# Intermediate-JavaScript
-Intermediate JavaScript
+# Intermediate JavaScript
