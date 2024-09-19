@@ -165,3 +165,5 @@ In a **regular function**, the value of `this` is determined by how the function
 - **Binding** this: bind(), call(), and apply() can explicitly set the value of this.
 
 Understanding this is critical for working with objects, methods, and functions, particularly in React and React Native, where this is used extensively in class-based components (before hooks) to manage state and methods.
+
+> 19/9/2024
